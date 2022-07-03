@@ -59,3 +59,10 @@ print('Decision Tree:', accuracy_score(y_test, dtcy_predict))
 print('Support Vector:', accuracy_score(y_test, svmy_predict))
 print('MLP:', accuracy_score(y_test,  mlpy_predict))
 print('Gradient Boosting:', accuracy_score(y_test,  gbcy_predict))
+
+'''Accuracy Score: Logistic: 0.7448591012947449 
+Random Forest: 0.8347296268088348 
+Decision Tree: 0.7928408225437928 
+Support Vector: 0.7448591012947449 
+MLP: 0.7448591012947449 
+Gradient Boosting: 0.853008377760853'''
